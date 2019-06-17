@@ -1,0 +1,10 @@
+.vs/
+*.obj
+Debug/
+Release/
+*.r
+x64/
+ipch/
+*.sdf
+*.suo
+*.opendb
