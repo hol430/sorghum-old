@@ -52,6 +52,8 @@ void Water::doRegistrations(void)
    scienceAPI.expose("totalAvail",        "",	"Total available SW",							   false, totalAvail);
    scienceAPI.expose("availablePot",      "",	"Potential available SW by layer",				   false, availablePot);
    scienceAPI.expose("totalAvailablePot", "",	"Total potential available SW",					   false, totalAvailPot);
+   scienceAPI.expose("sorgh_esw",		  "",	"ESW as used in sorghum root growth calcs",		   false, sorghEsw);
+   scienceAPI.expose("sorgh_esw_cap",	  "",	"esw_cap as used in sorghum root growth calcs",	   false, sorghEswCap);
 
    scienceAPI.exposeFunction("esw_layer", "mm", "Plant extractable soil water in each layer",
                     FloatArrayFunction(&Water::getEswLayers));
@@ -246,6 +248,8 @@ void Water::process(void)
 //------------------------------------------------------------------------------------------------
 double Water::swAvailRatio(int currentLayer)
    {
+	sorghEsw = esw[currentLayer];
+	sorghEswCap = eswCap[currentLayer];
    return  divide (esw[currentLayer],eswCap[currentLayer], 10.0);
    }
 //------------------------------------------------------------------------------------------------
