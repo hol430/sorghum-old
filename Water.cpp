@@ -253,7 +253,8 @@ double Water::swAvailRatio(int currentLayer)
    {
 	sorghEsw = esw[currentLayer];
 	sorghEswCap = eswCap[currentLayer];
-   return  divide (esw[currentLayer],eswCap[currentLayer], 10.0);
+	// dh - in new apsim, uptakes are immediately taken out of the soil.
+   return  divide (esw[currentLayer] + dltSwDep[currentLayer],eswCap[currentLayer], 10.0);
    }
 //------------------------------------------------------------------------------------------------
 //--------------- Plant transpiration and soil water extraction
