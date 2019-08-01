@@ -85,6 +85,8 @@
       <variable>sorgh_esw</variable>
       <variable>sorgh_esw_cap</variable>
       <variable>rootRawSwFactor</variable>
+      <variable>ll15_dep</variable>
+      <variable>sorgh_sw_dep</variable>
       <constants>
         <constant name="precision">8</constant>
       </constants>

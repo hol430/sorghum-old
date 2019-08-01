@@ -82,7 +82,8 @@ void Roots::initialize(void)
 	   dltRootDepth = 0.0;
    dltRootFront = 0.0;
    lastLayerPropn = 0.0;
-
+   xfc = 0;
+   swFactor = 0;
 
    if(nLayers > 0 && nLayers < 100)
    {
