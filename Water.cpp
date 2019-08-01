@@ -48,6 +48,10 @@ void Water::doRegistrations(void)
    scienceAPI.expose("ll",                "",   "Crop lower limit",                                true,  ll);
    scienceAPI.expose("xf",                "",   "Exploration factor",                              true,  xf);
    scienceAPI.expose("kl",                "",   "kl factor",                                       true,  kl);
+   scienceAPI.expose("avail",             "",	"Available SW by layer",						   false, available);
+   scienceAPI.expose("totalAvail",        "",	"Total available SW",							   false, totalAvail);
+   scienceAPI.expose("availablePot",      "",	"Potential available SW by layer",				   false, availablePot);
+   scienceAPI.expose("totalAvailablePot", "",	"Total potential available SW",					   false, totalAvailPot);
 
    scienceAPI.exposeFunction("esw_layer", "mm", "Plant extractable soil water in each layer",
                     FloatArrayFunction(&Water::getEswLayers));

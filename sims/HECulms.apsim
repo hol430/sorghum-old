@@ -76,6 +76,10 @@
       <variable>cover_green</variable>
       <variable>cover_tot</variable>
       <variable>DeltaTTfm</variable>
+      <variable>avail</variable>
+      <variable>totalAvail</variable>
+      <variable>availablePot</variable>
+      <variable>totalAvailablePot</variable>
       <constants>
         <constant name="precision">8</constant>
       </constants>
