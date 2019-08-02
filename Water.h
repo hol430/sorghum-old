@@ -74,7 +74,7 @@ class Water : public PlantProcess
 	vector<double> avSD;				// average s/d for each 100dd centred on flowering
 
 	int EnvType;
-
+	vector<double> liveSwDep;
 
    
 // Private Methods -------------------------------------------------------
@@ -135,11 +135,12 @@ class Water : public PlantProcess
    void  getSwUptakeLayers(vector<float> &);
    void  getEpLayers(vector<float> &);
    void  getllDep(vector<float> &);
-
    double getESW(void){return sumVector(esw);}
    double getESWAvail(void)const{return totalAvail;}
    double sumPhotoStressTotal(int from, int to);
    double sumExpanStressTotal(int from, int to);
+   vector<double>  getLiveSwDep();
+   vector<double>  getLiveEsw();
 
    // phenology
    void  phenologyEvent(int){};
