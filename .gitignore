@@ -9,3 +9,7 @@ ipch/
 *.suo
 *.opendb
 *.out
+*.sum
+*.sims
+*.db
+*.apsimx
