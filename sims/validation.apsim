@@ -3220,7 +3220,6 @@
             </SW>
           </Sample>
           <Sample name="Initial Nitrogen">
-            <Date type="date" description="Sample date:" />
             <Thickness>
               <double>100</double>
               <double>100</double>
@@ -3236,27 +3235,32 @@
             <NO3>
               <double>12.233</double>
               <double>1.867</double>
-              <double>1.400</double>
+              <double>1.4</double>
               <double>0.867</double>
-              <double>0.900</double>
+              <double>0.9</double>
               <double>2.833</double>
               <double>3.833</double>
-              <double>3.900</double>
+              <double>3.9</double>
               <double>4.233</double>
               <double>3.767</double>
             </NO3>
             <NH4>
-              <double>0.100</double>
-              <double>0.100</double>
-              <double>0.100</double>
-              <double>0.100</double>
-              <double>0.100</double>
-              <double>0.100</double>
-              <double>0.100</double>
-              <double>0.100</double>
-              <double>0.100</double>
-              <double>0.100</double>
+              <double>0.1</double>
+              <double>0.1</double>
+              <double>0.1</double>
+              <double>0.1</double>
+              <double>0.1</double>
+              <double>0.1</double>
+              <double>0.1</double>
+              <double>0.1</double>
+              <double>0.1</double>
+              <double>0.1</double>
             </NH4>
+            <NO3Units>ppm</NO3Units>
+            <NH4Units>ppm</NH4Units>
+            <SWUnits>Volumetric</SWUnits>
+            <OCUnits>Total</OCUnits>
+            <PHUnits>Water</PHUnits>
           </Sample>
         </Soil>
         <sorghum />
@@ -3363,13 +3367,6 @@
             <action>fertiliser apply amount = 119 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
           </operation>
         </operations>
-        <sorghum />
-        <outputfile name="Outputfile">
-          <filename output="yes">Sorghum_HE3_T2.out</filename>
-          <title>Sorghum_HE3_T2</title>
-          <variables name="My Variables" shortcut="/Validation/My Variables" />
-          <events name="Reporting Frequency" shortcut="/Validation/Reporting Frequency" />
-        </outputfile>
         <Soil name="HRS">
           <RecordNumber>0</RecordNumber>
           <SoilType>HMM</SoilType>
@@ -3413,10 +3410,10 @@
               <double>0.26</double>
               <double>0.26</double>
               <double>0.28</double>
-              <double>0.25</double>
-              <double>0.28</double>
-              <double>0.3</double>
-              <double>0.31</double>
+              <double>0.32</double>
+              <double>0.32</double>
+              <double>0.32</double>
+              <double>0.33</double>
             </AirDry>
             <LL15>
               <double>0.226</double>
@@ -3445,7 +3442,7 @@
             <SAT>
               <double>0.45</double>
               <double>0.45</double>
-              <double>0.47</double>
+              <double>0.48</double>
               <double>0.47</double>
               <double>0.45</double>
               <double>0.41</double>
@@ -3518,10 +3515,6 @@
             <CN2Bare>85</CN2Bare>
             <CNRed>20</CNRed>
             <CNCov>0.8</CNCov>
-            <Slope>NaN</Slope>
-            <DischargeWidth>NaN</DischargeWidth>
-            <CatchmentArea>NaN</CatchmentArea>
-            <MaxPond>NaN</MaxPond>
             <Thickness>
               <double>100</double>
               <double>100</double>
@@ -3535,16 +3528,16 @@
               <double>200</double>
             </Thickness>
             <SWCON>
-              <double>0.3</double>
-              <double>0.3</double>
-              <double>0.3</double>
-              <double>0.3</double>
-              <double>0.3</double>
-              <double>0.3</double>
-              <double>0.3</double>
-              <double>0.3</double>
-              <double>0.3</double>
-              <double>0.3</double>
+              <double>0.300</double>
+              <double>0.300</double>
+              <double>0.300</double>
+              <double>0.300</double>
+              <double>0.300</double>
+              <double>0.300</double>
+              <double>0.300</double>
+              <double>0.300</double>
+              <double>0.300</double>
+              <double>0.300</double>
             </SWCON>
           </SoilWater>
           <SoilOrganicMatter>
@@ -3566,42 +3559,41 @@
               <double>200</double>
             </Thickness>
             <OC>
-              <double>1.19</double>
-              <double>0.59</double>
-              <double>0.45</double>
-              <double>0.3</double>
-              <double>0.2</double>
-              <double>0.16</double>
-              <double>0.17</double>
-              <double>0.17</double>
-              <double>0.17</double>
-              <double>0.17</double>
+              <double>1.190</double>
+              <double>0.590</double>
+              <double>0.450</double>
+              <double>0.300</double>
+              <double>0.200</double>
+              <double>0.160</double>
+              <double>0.170</double>
+              <double>0.170</double>
+              <double>0.170</double>
+              <double>0.170</double>
             </OC>
             <FBiom>
-              <double>0.05</double>
-              <double>0.02</double>
-              <double>0.01</double>
-              <double>0.01</double>
-              <double>0.01</double>
-              <double>0.01</double>
-              <double>0.01</double>
-              <double>0.05</double>
-              <double>0.02</double>
-              <double>0.01</double>
+              <double>0.050</double>
+              <double>0.020</double>
+              <double>0.010</double>
+              <double>0.010</double>
+              <double>0.010</double>
+              <double>0.010</double>
+              <double>0.010</double>
+              <double>0.050</double>
+              <double>0.020</double>
+              <double>0.010</double>
             </FBiom>
             <FInert>
-              <double>0.45</double>
-              <double>0.6</double>
-              <double>0.75</double>
-              <double>0.9</double>
-              <double>0.9</double>
-              <double>0.9</double>
-              <double>0.9</double>
-              <double>0.9</double>
-              <double>0.9</double>
-              <double>0.9</double>
+              <double>0.450</double>
+              <double>0.600</double>
+              <double>0.750</double>
+              <double>0.900</double>
+              <double>0.900</double>
+              <double>0.900</double>
+              <double>0.900</double>
+              <double>0.900</double>
+              <double>0.900</double>
+              <double>0.900</double>
             </FInert>
-            <OCUnits>Total</OCUnits>
           </SoilOrganicMatter>
           <Analysis>
             <Thickness>
@@ -3644,20 +3636,19 @@
               <double>200</double>
             </Thickness>
             <SW>
-              <double>0.235</double>
-              <double>0.252</double>
-              <double>0.270</double>
-              <double>0.300</double>
-              <double>0.268</double>
-              <double>0.304</double>
-              <double>0.335</double>
+              <double>0.217</double>
+              <double>0.357</double>
+              <double>0.375</double>
+              <double>0.401</double>
+              <double>0.349</double>
+              <double>0.351</double>
+              <double>0.359</double>
               <double>0.330</double>
-              <double>0.320</double>
-              <double>0.330</double>
+              <double>0.322</double>
+              <double>0.347</double>
             </SW>
           </Sample>
           <Sample name="Initial Nitrogen">
-            <Date type="date" description="Sample date:" />
             <Thickness>
               <double>100</double>
               <double>100</double>
@@ -3671,16 +3662,16 @@
               <double>200</double>
             </Thickness>
             <NO3>
-              <double>0.0999982852829435</double>
-              <double>0.0259995541735653</double>
-              <double>0.0499991426414719</double>
-              <double>0.0579706170368574</double>
-              <double>0.394272271062735</double>
-              <double>0.187095383704585</double>
-              <double>0.511991220648671</double>
-              <double>0.761986933856032</double>
-              <double>0.718987671184364</double>
-              <double>0.699987996980607</double>
+              <double>12.233</double>
+              <double>1.867</double>
+              <double>1.4</double>
+              <double>0.867</double>
+              <double>0.9</double>
+              <double>2.833</double>
+              <double>3.833</double>
+              <double>3.9</double>
+              <double>4.233</double>
+              <double>3.767</double>
             </NO3>
             <NH4>
               <double>0.1</double>
@@ -3694,8 +3685,20 @@
               <double>0.1</double>
               <double>0.1</double>
             </NH4>
+            <NO3Units>ppm</NO3Units>
+            <NH4Units>ppm</NH4Units>
+            <SWUnits>Volumetric</SWUnits>
+            <OCUnits>Total</OCUnits>
+            <PHUnits>Water</PHUnits>
           </Sample>
         </Soil>
+        <sorghum />
+        <outputfile name="Outputfile">
+          <filename output="yes">Sorghum_HE3_T2.out</filename>
+          <title>Sorghum_HE3_T2</title>
+          <variables name="My Variables" shortcut="/Validation/My Variables" />
+          <events name="Reporting Frequency" shortcut="/Validation/Reporting Frequency" />
+        </outputfile>
       </area>
     </simulation>
     <simulation name="Sorghum_HE3_T3">
