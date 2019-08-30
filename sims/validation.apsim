@@ -75,6 +75,7 @@
     <variable>cover_green</variable>
     <variable>cover_tot</variable>
     <variable>DeltaTTFM</variable>
+    <variable>st</variable>
     <constants>
       <constant name="precision">8</constant>
     </constants>
