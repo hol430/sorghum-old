@@ -20781,6 +20781,10 @@ sd = 0</text>
               </script>
             </manager>
             <manager name="Harvesting rule">
+              <ui>
+                <category type="category" description="Harvesting criteria" />
+                <crop type="modulename" description="Enter name of crop to harvest when ripe : ">Sorghum</crop>
+              </ui>
               <script>
                 <text>
 
@@ -20792,10 +20796,6 @@ sd = 0</text>
             </text>
                 <event>end_of_day</event>
               </script>
-              <ui>
-                <category type="category" description="Harvesting criteria" />
-                <crop type="modulename" description="Enter name of crop to harvest when ripe : ">Sorghum</crop>
-              </ui>
             </manager>
           </folder>
           <Soil name="GLH Field">
@@ -21101,17 +21101,6 @@ sd = 0</text>
         <area name="paddock">
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
-              <script>
-                <text>
-            if (paddock_is_fallow() = 1 and today = date('[date]')) then
-              [crop] sow plants =[density], sowing_depth = [depth], cultivar = [cultivar], row_spacing = [row_spacing], skip = [RowConfiguration], tiller_no_fertile = [ftn] ()
-            endif
-            if (paddock_is_fallow() = 0) then
-               outputfile do_output
-            endif
-          </text>
-                <event>start_of_day</event>
-              </script>
               <ui>
                 <category type="category" description="Sowing criteria" />
                 <date type="text" description="Enter sowing date (d/m/yyyy) : ">29/11/1995</date>
@@ -21124,6 +21113,14 @@ sd = 0</text>
                 <RowConfiguration type="list" listvalues="solid, single, double" description="Enter skip row configuration : ">solid</RowConfiguration>
                 <ftn type="text" description="Enter Fertile Tiller No. : ">0.35</ftn>
               </ui>
+              <script>
+                <text>
+            if (paddock_is_fallow() = 1 and today = date('[date]')) then
+              [crop] sow plants =[density], sowing_depth = [depth], cultivar = [cultivar], row_spacing = [row_spacing], skip = [RowConfiguration], tiller_no_fertile = [ftn] ()
+            endif
+          </text>
+                <event>start_of_day</event>
+              </script>
             </manager>
             <manager name="Harvesting rule">
               <script>
@@ -21447,17 +21444,6 @@ sd = 0</text>
         <area name="paddock">
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
-              <script>
-                <text>
-            if (paddock_is_fallow() = 1 and today = date('[date]')) then
-              [crop] sow plants =[density], sowing_depth = [depth], cultivar = [cultivar], row_spacing = [row_spacing], skip = [RowConfiguration], tiller_no_fertile = [ftn] ()
-            endif
-            if (paddock_is_fallow() = 0) then
-               outputfile do_output
-            endif
-          </text>
-                <event>start_of_day</event>
-              </script>
               <ui>
                 <category type="category" description="Sowing criteria" />
                 <date type="text" description="Enter sowing date (d/m/yyyy) : ">29/11/1995</date>
@@ -21470,6 +21456,14 @@ sd = 0</text>
                 <RowConfiguration type="list" listvalues="solid, single, double" description="Enter skip row configuration : ">solid</RowConfiguration>
                 <ftn type="text" description="Enter Fertile Tiller No. : ">0.2</ftn>
               </ui>
+              <script>
+                <text>
+            if (paddock_is_fallow() = 1 and today = date('[date]')) then
+              [crop] sow plants =[density], sowing_depth = [depth], cultivar = [cultivar], row_spacing = [row_spacing], skip = [RowConfiguration], tiller_no_fertile = [ftn] ()
+            endif
+          </text>
+                <event>start_of_day</event>
+              </script>
             </manager>
             <manager name="Harvesting rule">
               <script>
@@ -21822,17 +21816,6 @@ sd = 0</text>
         <area name="paddock">
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
-              <script>
-                <text>
-            if (paddock_is_fallow() = 1 and today = date('[date]')) then
-              [crop] sow plants =[density], sowing_depth = [depth], cultivar = [cultivar], row_spacing = [row_spacing], skip = [RowConfiguration], tiller_no_fertile = [ftn] ()
-            endif
-            if (paddock_is_fallow() = 0) then
-               outputfile do_output
-            endif
-          </text>
-                <event>start_of_day</event>
-              </script>
               <ui>
                 <category type="category" description="Sowing criteria" />
                 <date type="text" description="Enter sowing date (d/m/yyyy) : ">29/11/1995</date>
@@ -21845,6 +21828,14 @@ sd = 0</text>
                 <RowConfiguration type="list" listvalues="solid, single, double" description="Enter skip row configuration : ">solid</RowConfiguration>
                 <ftn type="text" description="Enter Fertile Tiller No. : ">0.2</ftn>
               </ui>
+              <script>
+                <text>
+            if (paddock_is_fallow() = 1 and today = date('[date]')) then
+              [crop] sow plants =[density], sowing_depth = [depth], cultivar = [cultivar], row_spacing = [row_spacing], skip = [RowConfiguration], tiller_no_fertile = [ftn] ()
+            endif
+          </text>
+                <event>start_of_day</event>
+              </script>
             </manager>
             <manager name="Harvesting rule">
               <script>
@@ -22189,9 +22180,6 @@ sd = 0</text>
                 <text>
             if (paddock_is_fallow() = 1 and today = date('[date]')) then
               [crop] sow plants =[density], sowing_depth = [depth], cultivar = [cultivar], row_spacing = [row_spacing], skip = [RowConfiguration], tiller_no_fertile = [ftn] ()
-            endif
-            if (paddock_is_fallow() = 0) then
-               outputfile do_output
             endif
           </text>
                 <event>start_of_day</event>
@@ -22540,17 +22528,6 @@ sd = 0</text>
         <area name="paddock">
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
-              <script>
-                <text>
-            if (paddock_is_fallow() = 1 and today = date('[date]')) then
-              [crop] sow plants =[density], sowing_depth = [depth], cultivar = [cultivar], row_spacing = [row_spacing], skip = [RowConfiguration], tiller_no_fertile = [ftn] ()
-            endif
-            if (paddock_is_fallow() = 0) then
-               outputfile do_output
-            endif
-          </text>
-                <event>start_of_day</event>
-              </script>
               <ui>
                 <category type="category" description="Sowing criteria" />
                 <date type="text" description="Enter sowing date (d/m/yyyy) : ">29/11/1995</date>
@@ -22563,6 +22540,14 @@ sd = 0</text>
                 <RowConfiguration type="list" listvalues="solid, single, double" description="Enter skip row configuration : ">solid</RowConfiguration>
                 <ftn type="text" description="Enter Fertile Tiller No. : ">0</ftn>
               </ui>
+              <script>
+                <text>
+            if (paddock_is_fallow() = 1 and today = date('[date]')) then
+              [crop] sow plants =[density], sowing_depth = [depth], cultivar = [cultivar], row_spacing = [row_spacing], skip = [RowConfiguration], tiller_no_fertile = [ftn] ()
+            endif
+          </text>
+                <event>start_of_day</event>
+              </script>
             </manager>
             <manager name="Harvesting rule">
               <script>
