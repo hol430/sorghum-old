@@ -98,8 +98,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE1_T1.out</filename>
             <title>Sorghum_HE1_T1</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -842,8 +842,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE1_T2.out</filename>
             <title>Sorghum_HE1_T2</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE1_T2</CheckedTitles>
@@ -1663,8 +1663,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE1_T3.out</filename>
             <title>Sorghum_HE1_T3</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE1_T3</CheckedTitles>
@@ -2486,8 +2486,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE2_T1.out</filename>
             <title>Sorghum_HE2_T1</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE2_T1</CheckedTitles>
@@ -3299,8 +3299,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE2_T2.out</filename>
             <title>Sorghum_HE2_T2</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -4035,8 +4035,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE2_T3.out</filename>
             <title>Sorghum_HE2_T3</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -5106,8 +5106,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE3_T1.out</filename>
             <title>Sorghum_HE3_T1</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE3_T1</CheckedTitles>
@@ -5872,8 +5872,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE3_T2.out</filename>
             <title>Sorghum_HE3_T2</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE3_T2</CheckedTitles>
@@ -6638,8 +6638,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE3_T3.out</filename>
             <title>Sorghum_HE3_T3</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE3_T3</CheckedTitles>
@@ -7747,8 +7747,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE4_T1.out</filename>
             <title>Sorghum_HE4_T1</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE4_T1</CheckedTitles>
@@ -8487,8 +8487,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE4_T2.out</filename>
             <title>Sorghum_HE4_T2</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE4_T2</CheckedTitles>
@@ -9220,8 +9220,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE4_T3.out</filename>
             <title>Sorghum_HE4_T3</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE4_T3</CheckedTitles>
@@ -10291,8 +10291,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE5_T1.out</filename>
             <title>Sorghum_HE5_T1</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE5_T1</CheckedTitles>
@@ -11081,8 +11081,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE5_T2.out</filename>
             <title>Sorghum_HE5_T2</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE5_T2</CheckedTitles>
@@ -11871,8 +11871,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE5_T3.out</filename>
             <title>Sorghum_HE5_T3</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE5_T3</CheckedTitles>
@@ -12996,8 +12996,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE6_T1.out</filename>
             <title>Sorghum_HE6_T1</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE6_T1</CheckedTitles>
@@ -13778,8 +13778,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE6_T2.out</filename>
             <title>Sorghum_HE6_T2</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE6_T2</CheckedTitles>
@@ -14560,8 +14560,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE6_T3.out</filename>
             <title>Sorghum_HE6_T3</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE6_T3</CheckedTitles>
@@ -15344,8 +15344,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE7_T1.out</filename>
             <title>Sorghum_HE7_T1</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE7_T1</CheckedTitles>
@@ -16094,8 +16094,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE7_T2.out</filename>
             <title>Sorghum_HE7_T2</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE7_T2</CheckedTitles>
@@ -16840,8 +16840,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE7_T3.out</filename>
             <title>Sorghum_HE7_T3</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE7_T3</CheckedTitles>
@@ -17592,8 +17592,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE8_T1.out</filename>
             <title>Sorghum_HE8_T1</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE8_T1</CheckedTitles>
@@ -18338,8 +18338,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE8_T2.out</filename>
             <title>Sorghum_HE8_T2</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE8_T2</CheckedTitles>
@@ -19088,8 +19088,8 @@
           <outputfile>
             <filename output="yes">Sorghum_HE8_T3.out</filename>
             <title>Sorghum_HE8_T3</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
             <Graph name="Stage">
               <Legend>
                 <CheckedTitles>Plot, stage,Sorghum_HE8_T3</CheckedTitles>
@@ -29264,8 +29264,8 @@
           <outputfile>
             <filename output="yes">Sorghum_BW8_GxE_T1.out</filename>
             <title>Sorghum_BW8_GxE_T1</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <sorghum>
             <sorghumConstants name="standard">
@@ -29943,8 +29943,8 @@
           <outputfile>
             <filename output="yes">Sorghum_BW8_GxE_T2.out</filename>
             <title>Sorghum_BW8_GxE_T2</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <sorghum>
             <sorghumConstants name="standard">
@@ -30622,8 +30622,8 @@
           <outputfile>
             <filename output="yes">Sorghum_BW8_GxE_T3.out</filename>
             <title>Sorghum_BW8_GxE_T3</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <sorghum>
             <sorghumConstants name="standard">
@@ -31301,8 +31301,8 @@
           <outputfile>
             <filename output="yes">Sorghum_BW8_GxE_T4.out</filename>
             <title>Sorghum_BW8_GxE_T4</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <sorghum>
             <sorghumConstants name="standard">
@@ -31952,8 +31952,8 @@
           <outputfile>
             <filename output="yes">Sorghum_BW8_GxE_T5.out</filename>
             <title>Sorghum_BW8_GxE_T5</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <sorghum>
             <sorghumConstants name="standard">
@@ -32622,8 +32622,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_BW8_GxE_T6.out</filename>
             <title>Sorghum_BW8_GxE_T6</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <sorghum>
             <sorghumConstants name="standard">
@@ -33273,8 +33273,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_BW8_GxE_T7.out</filename>
             <title>Sorghum_BW8_GxE_T7</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <sorghum>
             <sorghumConstants name="standard">
@@ -33924,8 +33924,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_BW8_GxE_T8.out</filename>
             <title>Sorghum_BW8_GxE_T8</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <sorghum>
             <sorghumConstants name="standard">
@@ -34571,8 +34571,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_BW8_GxE_T9.out</filename>
             <title>Sorghum_BW8_GxE_T9</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <sorghum>
             <sorghumConstants name="standard">
@@ -35218,8 +35218,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_BW8_GxE_T10.out</filename>
             <title>Sorghum_BW8_GxE_T10</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <sorghum>
             <sorghumConstants name="standard">
@@ -35865,8 +35865,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_BW8_GxE_T11.out</filename>
             <title>Sorghum_BW8_GxE_T11</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <sorghum>
             <sorghumConstants name="standard">
@@ -36512,8 +36512,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_BW8_GxE_T12.out</filename>
             <title>Sorghum_BW8_GxE_T12</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <sorghum>
             <sorghumConstants name="standard">
@@ -37103,8 +37103,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE13_Buster-I-N.out</filename>
             <title>Sorghum_LE13_Buster-I-N</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -37706,8 +37706,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE13_Buster-I+N.out</filename>
             <title>Sorghum_LE13_Buster-I+N</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -38304,8 +38304,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE13_Buster+I+N.out</filename>
             <title>Sorghum_LE13_Buster+I+N</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -38931,8 +38931,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE13_M35-1-I-N.out</filename>
             <title>Sorghum_LE13_M35-1-I-N</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -39534,8 +39534,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE13_M35-1-I+N.out</filename>
             <title>Sorghum_LE13_M35-1-I+N</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -40149,8 +40149,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE13_M35-1+I+N.out</filename>
             <title>Sorghum_LE13_M35-1+I+N</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -40778,8 +40778,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE14_Buster.out</filename>
             <title>Sorghum_LE14_Buster</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -41373,8 +41373,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE14_M35-1.out</filename>
             <title>Sorghum_LE14_M35-1</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -41968,8 +41968,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE14_QL41xQL36.out</filename>
             <title>Sorghum_LE14_QL41xQL36</title>
-            <variables name="My Variables" />
-            <events name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -42565,8 +42565,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE15_Buster.out</filename>
             <title>Sorghum_LE15_Buster</title>
-            <events />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -43236,8 +43236,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE15_M35-1.out</filename>
             <title>Sorghum_LE15_M35-1</title>
-            <events />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -43907,8 +43907,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE15_QL41xQL36.out</filename>
             <title>Sorghum_LE15_QL41xQL36</title>
-            <events />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -44580,8 +44580,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE17_T1.out</filename>
             <title>Sorghum_LE17_T1</title>
-            <events />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -45207,8 +45207,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE17_T2.out</filename>
             <title>Sorghum_LE17_T2</title>
-            <events />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -45834,8 +45834,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE17_T3.out</filename>
             <title>Sorghum_LE17_T3</title>
-            <events />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -46472,8 +46472,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE19_T1.out</filename>
             <title>Sorghum_LE19_T1</title>
-            <events />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -47029,8 +47029,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE19_T2.out</filename>
             <title>Sorghum_LE19_T2</title>
-            <events />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -47608,8 +47608,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE19_T3.out</filename>
             <title>Sorghum_LE19_T3</title>
-            <events />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -48195,8 +48195,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE19_T4.out</filename>
             <title>Sorghum_LE19_T4</title>
-            <events />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -48782,8 +48782,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE19_T5.out</filename>
             <title>Sorghum_LE19_T5</title>
-            <events />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -49356,8 +49356,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE19_T6.out</filename>
             <title>Sorghum_LE19_T6</title>
-            <events />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -49935,8 +49935,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE19_T7.out</filename>
             <title>Sorghum_LE19_T7</title>
-            <events />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -50522,8 +50522,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_LE19_T8.out</filename>
             <title>Sorghum_LE19_T8</title>
-            <events />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -51111,8 +51111,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_Gatton_RUE_1.out</filename>
             <title>Sorghum_Gatton_RUE_1</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -51717,8 +51717,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_Gatton_RUE_2.out</filename>
             <title>Sorghum_Gatton_RUE_2</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -52323,8 +52323,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_Gatton_RUE_3.out</filename>
             <title>Sorghum_Gatton_RUE_3</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -52929,8 +52929,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_Gatton_RUE_4.out</filename>
             <title>Sorghum_Gatton_RUE_4</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -53539,8 +53539,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_Gatton_RUE_5.out</filename>
             <title>Sorghum_Gatton_RUE_5</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -54149,8 +54149,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_Gatton_RUE_6.out</filename>
             <title>Sorghum_Gatton_RUE_6</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -54759,8 +54759,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_Gatton_RUE_7.out</filename>
             <title>Sorghum_Gatton_RUE_7</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -55377,8 +55377,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_Gatton_RUE_8.out</filename>
             <title>Sorghum_Gatton_RUE_8</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
@@ -55995,8 +55995,8 @@ sd = 0</text>
           <outputfile>
             <filename output="yes">Sorghum_Gatton_RUE_9.out</filename>
             <title>Sorghum_Gatton_RUE_9</title>
-            <events name="My Variables Events" />
-            <variables name="My Variables" />
+            <events shortcut="/Validation/shared/My Variables" name="My Variables Events" />
+            <variables shortcut="/Validation/shared/My Variables" name="My Variables" />
           </outputfile>
           <folder name="Manager folder">
             <manager name="Sow SkipRow on a fixed date">
