@@ -2,7 +2,7 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LocalDebuggerCommand>..\ApsimModel.exe</LocalDebuggerCommand>
-    <LocalDebuggerCommandArguments>C:\Users\hol430\Documents\Sorghum\jason\HE1-8\NStress.apsim</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>sims\validation.apsim Simulation=/Validation/Hermitage/HE4/Sorghum_HE4_T1</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
     <LocalDebuggerAttach>false</LocalDebuggerAttach>
     <LocalDebuggerAmpDefaultAccelerator>{ADEFF70D-84BF-47A1-91C3-FF6B0FC71218}</LocalDebuggerAmpDefaultAccelerator>

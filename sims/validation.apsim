@@ -34923,51 +34923,51 @@ sd = 0</text>
               <date>3/12/1999</date>
               <action>Irrigation apply amount = 17</action>
             </operation>
-            <operation condition="start_of_day" name="operation{2}">
+            <operation condition="start_of_day">
               <date>6/12/1999</date>
               <action>Irrigation apply amount = 20</action>
             </operation>
-            <operation condition="start_of_day" name="operation{3}">
+            <operation condition="start_of_day">
               <date>17/12/1999</date>
               <action>Irrigation apply amount = 20</action>
             </operation>
-            <operation condition="start_of_day" name="operation{4}">
+            <operation condition="start_of_day">
               <date>7/01/2000</date>
               <action>Irrigation apply amount = 10</action>
             </operation>
-            <operation condition="start_of_day" name="operation{5}">
+            <operation condition="start_of_day">
               <date>14/01/2000</date>
               <action>Irrigation apply amount = 48</action>
             </operation>
-            <operation condition="start_of_day" name="operation{6}">
+            <operation condition="start_of_day">
               <date>27/01/2000</date>
               <action>Irrigation apply amount = 21</action>
             </operation>
-            <operation condition="start_of_day" name="operation{7}">
+            <operation condition="start_of_day">
               <date>4/02/2000</date>
               <action>Irrigation apply amount = 17</action>
             </operation>
-            <operation condition="start_of_day" name="operation{8}">
+            <operation condition="start_of_day">
               <date>11/02/2000</date>
               <action>Irrigation apply amount = 30</action>
             </operation>
-            <operation condition="start_of_day" name="operation{9}">
+            <operation condition="start_of_day">
               <date>25/02/2000</date>
               <action>Irrigation apply amount = 41</action>
             </operation>
-            <operation condition="start_of_day" name="operation{10}">
+            <operation condition="start_of_day">
               <date>3/03/2000</date>
               <action>Irrigation apply amount = 15</action>
             </operation>
-            <operation condition="start_of_day" name="operation{11}">
+            <operation condition="start_of_day">
               <date>29/11/1999</date>
               <action>fertiliser apply amount = 44 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
             </operation>
-            <operation condition="start_of_day" name="operation{12}">
+            <operation condition="start_of_day">
               <date>28/11/1999</date>
               <action>fertiliser apply amount = 0 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
             </operation>
-            <operation condition="start_of_day" name="operation{13}">
+            <operation condition="start_of_day">
               <date>27/11/1999</date>
               <action>fertiliser apply amount = 0 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
             </operation>
@@ -35999,59 +35999,59 @@ sd = 0</text>
               <date>3/12/1999</date>
               <action>Irrigation apply amount = 17</action>
             </operation>
-            <operation condition="start_of_day" name="operation{2}">
+            <operation condition="start_of_day">
               <date>6/12/1999</date>
               <action>Irrigation apply amount = 20</action>
             </operation>
-            <operation condition="start_of_day" name="operation{3}">
+            <operation condition="start_of_day">
               <date>17/12/1999</date>
               <action>Irrigation apply amount = 20</action>
             </operation>
-            <operation condition="start_of_day" name="operation{4}">
+            <operation condition="start_of_day">
               <date>7/01/2000</date>
               <action>Irrigation apply amount = 10</action>
             </operation>
-            <operation condition="start_of_day" name="operation{5}">
+            <operation condition="start_of_day">
               <date>14/01/2000</date>
               <action>Irrigation apply amount = 48</action>
             </operation>
-            <operation condition="start_of_day" name="operation{6}">
+            <operation condition="start_of_day">
               <date>27/01/2000</date>
               <action>Irrigation apply amount = 21</action>
             </operation>
-            <operation condition="start_of_day" name="operation{7}">
+            <operation condition="start_of_day">
               <date>4/02/2000</date>
               <action>Irrigation apply amount = 17</action>
             </operation>
-            <operation condition="start_of_day" name="operation{8}">
+            <operation condition="start_of_day">
               <date>11/02/2000</date>
               <action>Irrigation apply amount = 30</action>
             </operation>
-            <operation condition="start_of_day" name="operation{9}">
+            <operation condition="start_of_day">
               <date>25/02/2000</date>
               <action>Irrigation apply amount = 41</action>
             </operation>
-            <operation condition="start_of_day" name="operation{10}">
+            <operation condition="start_of_day">
               <date>3/03/2000</date>
               <action>Irrigation apply amount = 15</action>
             </operation>
-            <operation condition="start_of_day" name="operation{11}">
+            <operation condition="start_of_day">
               <date>29/11/1999</date>
               <action>fertiliser apply amount = 117 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
             </operation>
-            <operation condition="start_of_day" name="operation{12}">
+            <operation condition="start_of_day">
               <date>7/01/2000</date>
               <action>fertiliser apply amount = 119 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
             </operation>
-            <operation condition="start_of_day" name="operation{13}">
+            <operation condition="start_of_day">
               <date>11/02/2000</date>
               <action>fertiliser apply amount = 119 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
             </operation>
-            <operation condition="start_of_day" name="operation{14}">
+            <operation condition="start_of_day">
               <date>28/11/1999</date>
               <action>fertiliser apply amount = 0 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
             </operation>
-            <operation condition="start_of_day" name="operation{15}">
+            <operation condition="start_of_day">
               <date>27/11/1999</date>
               <action>fertiliser apply amount = 0 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
             </operation>
