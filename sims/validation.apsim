@@ -1830,7 +1830,7 @@
               </ui>
               <script>
                 <text>
-            if (paddock_is_fallow() = 1 and today = date('[date]') and 0 = 1) then
+            if (paddock_is_fallow() = 1 and today = date('[date]')) then
               [crop] sow plants =[density], sowing_depth = [depth], cultivar = [cultivar], row_spacing = [row_spacing], skip = [RowConfiguration], tiller_no_fertile = [ftn] ()
             endif
             
@@ -9337,6 +9337,10 @@
               </script>
             </manager>
             <manager name="Harvesting rule">
+              <ui>
+                <category type="category" description="Harvesting criteria" />
+                <crop type="modulename" description="Enter name of crop to harvest when ripe : ">Sorghum</crop>
+              </ui>
               <script>
                 <text>
 
@@ -9348,10 +9352,6 @@
             </text>
                 <event>end_of_day</event>
               </script>
-              <ui>
-                <category type="category" description="Harvesting criteria" />
-                <crop type="modulename" description="Enter name of crop to harvest when ripe : ">Sorghum</crop>
-              </ui>
             </manager>
           </folder>
           <irrigation name="Irrigation">
@@ -10389,14 +10389,10 @@
                 <ftn type="text" description="Enter Fertile Tiller No. : ">0</ftn>
               </ui>
               <script>
-                <text>   tlai = lai + slai
+                <text>
             if (paddock_is_fallow() = 1 and today = date('[date]')) then
               [crop] sow plants =[density], sowing_depth = [depth], cultivar = [cultivar], row_spacing = [row_spacing], skip = [RowConfiguration], tiller_no_fertile = [ftn] ()
-            endif
-           if (paddock_is_fallow() = 0) then
-               outputfile do_output
-           endif
-          </text>
+            endif</text>
                 <event>start_of_day</event>
               </script>
             </manager>
@@ -34653,7 +34649,7 @@ sd = 0</text>
                 <RowConfiguration type="list" listvalues="solid, single, double" description="Enter skip row configuration : ">solid</RowConfiguration>
                 <ftn type="text" description="Enter Fertile Tiller No. : ">0</ftn>
               </ui>
-              <script name="start_of_day">
+              <script>
                 <text>
             if (paddock_is_fallow() = 1 and today = date('[date]')) then
               [crop] sow plants =[density], sowing_depth = [depth], cultivar = [cultivar], row_spacing = [row_spacing], skip = [RowConfiguration], tiller_no_fertile = [ftn] ()
